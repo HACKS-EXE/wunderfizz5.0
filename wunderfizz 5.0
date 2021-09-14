@@ -16,6 +16,7 @@ main()
 
 init()
 {
+	level.perk_purchase_limit = 50;
 	thread setupWunderfizz();
 }
 setupWunderfizz()
